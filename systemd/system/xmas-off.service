@@ -1,0 +1,7 @@
+[Unit]
+Description=Xmas light display killer
+Conflicts=xmas.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/echo 'Killing the Xmas light show'

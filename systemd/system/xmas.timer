@@ -1,0 +1,8 @@
+[Unit]
+Description=Xmas light display scheduler
+
+[Timer]
+OnCalendar=17:00
+
+[Install]
+WantedBy=timers.target

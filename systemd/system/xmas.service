@@ -1,0 +1,9 @@
+[Unit]
+Description=Xmas light display and web server
+
+[Service]
+ExecStart=/usr/local/bin/ledcontrol --led_count 214
+KillSignal=SIGINT
+
+[Install]
+WantedBy=multi-user.target
